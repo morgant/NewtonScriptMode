@@ -3,7 +3,7 @@ NewtonScript Mode for SubEthaEdit
 
 by Morgan Aldridge <morgant@makkintosshu.com>
 
-A [SubEthaEdit](http://codingmonkeys.de/subethaedit/) Mode for the NewtonScript language.
+A [SubEthaEdit](http://codingmonkeys.de/subethaedit/)/[Coda](http://panic.com/coda/) Mode (syntax highlighter) for the NewtonScript language.
 
 Currently in mid-implementation. See the [SubEthaEdit Mode File Format](http://codingmonkeys.de/subethaedit/mode.html) documentation for implementation reference.
 
