@@ -14,7 +14,7 @@
         This tag is required and must match with the name in the plist after the SEEMode..
         -->    
 
-        <name>Example Syntax</name>
+        <name>NewtonScript</name>
 
         <!-- optional to add spelling-dicitionary autocomplete words -->
         <autocompleteoptions use-spelling-dictionary="yes" />
@@ -114,8 +114,44 @@
                     get colored, check in <charsintokens> if you are tokenizing correctly.             
                 -->    
             
-				<string>colorme</string>
-				<string>andmetoo</string>
+				<string>constant</string>
+				<string>local</string>
+				<string>begin</string>
+				<string>end</string>
+				<string>and</string>
+				<string>or</string>
+				<string>not</string>
+				<string>exists</string>
+				<string>div</string>
+				<string>mod</string>
+				<string>if</string>
+				<string>then</string>
+				<string>else</string>
+				<string>for</string>
+				<string>to</string>
+				<string>by</string>
+				<string>do</string>
+				<string>foreach</string>
+				<string>deeply</string>
+				<string>in</string>
+				<string>collect</string>
+				<string>loop</string>
+				<string>break</string>
+				<string>while</string>
+				<string>repeat</string>
+				<string>until</string>
+				<string>try</string>
+				<string>onexception</string>
+				<string>func</string>
+				<string>native</string>
+				<string>return</string>
+				<string>inherited</string>
+				<string>call</string>
+				<string>with</string>
+				<string>global</string>
+				<string>self</string>
+				<string>_parent</string>
+				<string>_proto</string>
 
                 <!-- 
                     <regex> tags specify regular expression to be colored. 
@@ -124,14 +160,17 @@
                     
                     The example colors digits prefixed by foo. (only the digits)             
                 -->    
-
+				<!--
 				<regex>foo([0-9])</regex>
+				-->
 
             </keywords>
 
             <keywords id="Other keywords" color="#400080" font-weight="bold" font-style="italic">
-              <string>foo</string>
-              <string>bar</string>
+            	<!--
+				<string>foo</string>
+				<string>bar</string>
+				-->
             </keywords>
 
 
@@ -181,7 +220,8 @@
                       of that state
                   
             -->    
-
+			
+			<!--
             <state id="Inline Javascript" color="#000" usesymbolsfrommode="Javascript" useautocompletefrommode="Javascript">
                 <begin><regex>&lt;(?=script)</regex></begin>
                 <end><regex>/script&gt;</regex></end>
@@ -201,6 +241,7 @@
                 </state>
                 
             </state>
+            -->
 
             <!-- 
                 The <state-link> tag lets you reuse complete states including the
@@ -215,7 +256,9 @@
                       
                   
             -->    
+            <!--
             <state-link state="PHP" mode="PHP-HTML" />
+            -->
 
         </default>
         

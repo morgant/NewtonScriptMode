@@ -3,6 +3,7 @@
   <template>mytemplate.txt</template>   <!-- Provide a template for File->new -->
   <recognition>
     <extension>ns</extension>
+    <extension>newt</extension>
     <extension>newtonscript</extension>
     <regex>\A#!/usr/(local)?bin/(env )?newt</regex>
   </recognition>
