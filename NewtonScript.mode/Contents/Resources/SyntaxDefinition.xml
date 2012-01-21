@@ -196,6 +196,16 @@
                 <end><regex>[\n\r]</regex></end>
             </state>
             
+            <!--
+            	NewtonScript doesn't support hash/pound comments, but the
+				NEWT/0 interpreter supports hashbangs/shebangs, so only color
+				the shebang starting at the beginning of the file.
+            -->
+            <state id="Shebang" color="#236E25" font-style="italic">
+            	<begin><regex>\A#!</regex></begin>
+                <end><regex>[\n\r]</regex></end>
+            </state>
+            
             <state id="String" color="#760f15">
                 <begin><regex>"</regex></begin>
                 <end><regex>(((?&lt;!\\)(\\\\)*)|^)"</regex></end>
