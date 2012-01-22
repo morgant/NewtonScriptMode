@@ -14,6 +14,7 @@ SUPPORTS
 * Hashbang/Shebang
 * Single & Multi-line Comments
 * Strings
+* Numbers
 * Keywords
 * Newton OS 1.x & 2.x Functions
 * Some [NEWT/0](http://trac.so-kukan.com/newt/) Functions
@@ -22,7 +23,6 @@ TO-DO
 -----
 
 * More NEWT/0 Functions?
-* Numbers
 * Constants & Object Literals
 
 INSTALLATION

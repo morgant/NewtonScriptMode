@@ -167,7 +167,7 @@
             </keywords>
 
             
-            <keywords id="NOS 1.x Functions" color="#400080" font-weight="bold" font-style="italic">
+            <keywords id="NOS 1.x Functions" color="#400080" font-weight="bold" font-style="italic" useforautocomplete="yes">
             	<string>ClassOf</string>
             	<string>Clone</string>
             	<string>DeepClone</string>
@@ -321,7 +321,7 @@
             	<string>Ord</string>
             </keywords>
             
-            <keywords id="NOS 2.x Functions" color="#400080" font-weight="bold" font-style="italic">
+            <keywords id="NOS 2.x Functions" color="#400080" font-weight="bold" font-style="italic" useforautocomplete="yes">
             	<string>GetFunctionArgCount</string>
 				<string>IsCharacter</string>
 				<string>IsFunction</string>
@@ -374,7 +374,7 @@
             </keywords>
 			
 			<!-- Sourced from src/newt_core/incs/NewtFns.h, but I could've missed some. -->
-			<keywords id="NEWT/0 Functions" color="#400080" font-weight="bold" font-style="italic">
+			<keywords id="NEWT/0 Functions" color="#400080" font-weight="bold" font-style="italic" useforautocomplete="yes">
 				<string>MakeRegex</string>
 				<string>PrintObject</string>
 				<string>Print</string>
@@ -425,6 +425,10 @@
                   <string>foobar</string>
                 </keywords>
             </state>
+            
+            <keywords id="Number" color="#00f" inverted-color="#5d56ff" useforautocomplete="no">
+				<regex>(?&lt;![\w\d_])((?:[+-]?(?:(?:[0-9]+\.[0-9]*)|(?:\.[0-9]+))(?:[eE][+\-]?[0-9]+)?)|(?:(?:(?:[1-9][0-9]*)|0[0-7]*|(?:0[xX][0-9a-fA-F]+))))(?![\w\d_])</regex>
+            </keywords>
 
             <!-- 
                 The <import> tag lets you import substates and keywords from other modes.
