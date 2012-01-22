@@ -373,8 +373,17 @@
 				<string>BinEqual</string>
             </keywords>
 			
+			<!-- Sourced from src/newt_core/incs/NewtFns.h, but I could've missed some. -->
 			<keywords id="NEWT/0 Functions" color="#400080" font-weight="bold" font-style="italic">
-				<regex>Print</regex>
+				<string>MakeRegex</string>
+				<string>PrintObject</string>
+				<string>Print</string>
+				<string>Info</string>
+				<string>DumpFn</string>
+				<string>DumpBC</string>
+				<string>DumpStacks</string>
+				<string>Compile</string>
+				<string>GetEnv</string>
 			</keywords>
 
             <!-- 
