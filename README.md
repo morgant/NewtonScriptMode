@@ -23,7 +23,9 @@ TO-DO
 -----
 
 * More NEWT/0 Functions?
+* Constants and immediate objects?
 * Symbols parsing for the function popup menu (RegexSymbols.xml)
+* Boolean keywords (i.e. true & nil)
 
 INSTALLATION
 ------------

@@ -114,8 +114,12 @@
                     get colored, check in <charsintokens> if you are tokenizing correctly.             
                 -->    
             
+				<string>nil</string>
+				<string>true</string>
 				<string>constant</string>
 				<string>local</string>
+				<string>int</string>
+				<string>array</string>
 				<string>begin</string>
 				<string>end</string>
 				<string>and</string>
@@ -430,6 +434,10 @@
             
             <keywords id="Number" color="#00f" inverted-color="#5d56ff" useforautocomplete="no">
 				<regex>(?&lt;![\w\d_])((?:[+-]?(?:(?:[0-9]+\.[0-9]*)|(?:\.[0-9]+))(?:[eE][+\-]?[0-9]+)?)|(?:(?:(?:[1-9][0-9]*)|0[0-7]*|(?:0[xX][0-9a-fA-F]+))))(?![\w\d_])</regex>
+            </keywords>
+            
+            <keywords id="Quoted Constants" color="#825900" useforautocomplete="no">
+            	<regex>('(?:[\w][\w\d]+|\|[^|]+\|))</regex>
             </keywords>
 
             <!-- 
