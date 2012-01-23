@@ -421,9 +421,11 @@
             <state id="String" color="#760f15">
                 <begin><regex>"</regex></begin>
                 <end><regex>(((?&lt;!\\)(\\\\)*)|^)"</regex></end>
+                <!--
                 <keywords id="Other keywords" color="#400080" font-style="italic">
                   <string>foobar</string>
                 </keywords>
+                -->
             </state>
             
             <keywords id="Number" color="#00f" inverted-color="#5d56ff" useforautocomplete="no">
