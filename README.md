@@ -28,6 +28,7 @@ TO-DO
 
 * More NEWT/0 Functions?
 * More Symbols parsing for the function popup menu (RegexSymbols.xml):
+  * Methods vs. Functions
   * Frames?
   * Classes?
 
