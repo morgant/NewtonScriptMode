@@ -19,12 +19,17 @@ SUPPORTS
 * Quoted Constants
 * Newton OS 1.x & 2.x Functions
 * Some NEWT/0 Functions
+* Symbol parsing for the function pop-up menu, incl.:
+  * Functions
+  * Version Control System (VCS) Conflicts
 
 TO-DO
 -----
 
 * More NEWT/0 Functions?
-* Symbols parsing for the function popup menu (RegexSymbols.xml)
+* More Symbols parsing for the function popup menu (RegexSymbols.xml):
+  * Frames?
+  * Classes?
 
 INSTALLATION
 ------------

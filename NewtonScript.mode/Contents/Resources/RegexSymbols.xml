@@ -66,6 +66,8 @@
             <replace> </replace>
             <find>[ \t]+</find>
             <replace> </replace>
+            <find>(.*)</find>
+            <replace>\1()</replace>
         </postprocess>
     </symbol>
     
