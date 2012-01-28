@@ -21,6 +21,7 @@ SUPPORTS
 * Some NEWT/0 Functions
 * Symbol parsing for the function pop-up menu, incl.:
   * Functions
+  * Methods
   * Version Control System (VCS) Conflicts
 
 TO-DO
@@ -28,7 +29,6 @@ TO-DO
 
 * More NEWT/0 Functions?
 * More Symbols parsing for the function popup menu (RegexSymbols.xml):
-  * Methods vs. Functions
   * Frames?
   * Classes?
 
