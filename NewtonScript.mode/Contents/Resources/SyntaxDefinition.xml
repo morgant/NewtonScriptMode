@@ -17,7 +17,7 @@
         <name>NewtonScript</name>
 
         <!-- optional to add spelling-dicitionary autocomplete words -->
-        <autocompleteoptions use-spelling-dictionary="yes" />
+        <autocompleteoptions use-spelling-dictionary="no" />
 
         <!-- 
         The <charsintokens> and the <charsdelimitingtokens> instruct the syntax highlighter
@@ -439,6 +439,24 @@
             <keywords id="Quoted Constants" color="#825900" useforautocomplete="no">
             	<regex>('(?:[\w][\w\d]+|\|[^|]+\|))</regex>
             </keywords>
+            
+            <state id="Frame Block" type="block" foldable="yes">
+                <begin><regex>{</regex></begin>
+                <end><regex>}</regex></end>
+                <import />
+            </state>
+            
+            <state id="Array Block" type="block" foldable="yes">
+                <begin><regex>\[</regex></begin>
+                <end><regex>\]</regex></end>
+                <import />
+            </state>
+            
+            <state id="begin end Block" type="block" foldable="yes">
+                <begin><regex>(?&lt;!\S)begin(?!\S)</regex></begin>
+                <end><regex>(?&lt;!\S)end(?=[,;\s])</regex></end>
+                <import />
+            </state>
 
             <!-- 
                 The <import> tag lets you import substates and keywords from other modes.

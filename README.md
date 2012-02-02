@@ -19,6 +19,10 @@ SUPPORTS
 * Quoted Constants
 * Newton OS 1.x & 2.x Functions
 * Some NEWT/0 Functions
+* Block parsing & code folding:
+  * Frames
+  * Arrays
+  * begin/end
 * Symbol parsing for the function pop-up menu, incl.:
   * Functions
   * Methods
