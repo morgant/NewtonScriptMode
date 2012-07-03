@@ -4,7 +4,7 @@ NewtonScript Mode for SubEthaEdit
 by Morgan Aldridge <morgant@makkintosshu.com>
 
 A [SubEthaEdit](http://codingmonkeys.de/subethaedit/)/[Coda](http://panic.com/coda/) Mode (syntax highlighter) for the NewtonScript language. Keywords & functions sourced from [The NewtonScript 
-Programming Language](http://manuals.info.apple.com/en_US/NewtonScriptProgramLanguage.PDF) (1996, Apple Computer, Inc.; Mirrored on [UNNA](http://www.unna.org/unna/development/documentation/NewtonScriptProgramLanguage.pdf) & [Newted](http://www.newted.org/download/manuals/NewtonScriptProgramLanguage.pdf)) and [NEWT/0](http://trac.so-kukan.com/newt/) source code.
+Programming Language](http://manuals.info.apple.com/en_US/NewtonScriptProgramLanguage.PDF) (1996, Apple Computer, Inc.; Mirrored on [UNNA](http://www.unna.org/unna/development/documentation/NewtonScriptProgramLanguage.pdf) & [Newted](http://www.newted.org/download/manuals/NewtonScriptProgramLanguage.pdf)) and [NEWT/0](http://gnue.github.com/NEWT0/) source code.
 
 See the [SubEthaEdit Mode File Format](http://codingmonkeys.de/subethaedit/mode.html) for implementation reference.
 
